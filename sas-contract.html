@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লাইব্রেরি পার্টনার প্রোগ্রাম</title>
+    <!-- adishnal -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- adishnal -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        .pricing-column {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            background-color: #e2e8f0;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .pricing-column h2 {
+            color: #333;
+        }
+        .pricing-column p {
+            color: #666;
+        }
+        .pricing-column .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .pricing-column .features {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pricing-column .features li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- nev bar -->
+  <div class="navbar bg-base-100 bg-[#d3c3fcc7]">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="../index.html">Libror</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contract-form/contract.html">Contract Us</a></li>
+        <li>
+          <div class="tooltip tooltip-bottom" data-tip="account">
+            <a href="../login-page/login.html"
+            ><div class="avatar">
+              <div
+                class="w-6 rounded-full ring ring-primary ring-offset-base-100 ring-offset-1"
+              >
+                <img
+                  src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                />
+              </div></div
+          ></a>
+          </div>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    <div class="container">
+        <h1 class="font-extrabold text-6xl py-6"> < লাইব্রেরি পার্টনার প্রোগ্রাম ></h1>
+        <div class="pricing-table">
+            <div class="pricing-column py-28">
+                <h2 class="font-bold text-4xl">Basic Plan</h2>
+                <p class="py-4">দ্রুততার সাথে শেষ করতে পারবে তো?<br> Follow This </p>
+                <div class="price">$99/month</div>
+                <ul class="features">
+                    <li class="font-bold">10 days</li>
+                    <li>2day+ <sup>শর্ত প্রযোজ্য </sup></li>
+                    <li>Limited support</li>
+                </ul>
+                <br>
+                <button class="btn btn-active btn-primary ">Buy Now</button>
+            </div>
+            <div class="pricing-column py-28">
+                <h2 class="font-bold text-4xl">Standard Plan</h2>
+                <p class="py-4">একটু সময় নিয়ে পড়তে চাও?<br> Follow This</p>
+                <div class="price">$199/month</div>
+                <ul class="features">
+                    <li class="font-bold">20 Days</li>
+                    <li>3day+ <sup>শর্ত প্রযোজ্য </sup></li>
+                    <li>Priority support</li>
+                </ul>
+                <br>
+                <button class="btn btn-active btn-primary">Buy Now</button>
+            </div>
+            <div class="pricing-column py-28">
+                <h2 class="font-bold text-4xl">Premium Plan</h2>
+                <p class="py-4">রিলাক্স হয়ে সম্পূর্ণ বই পড়তে চাও? <br> Follow This</p>
+                <div class="price">$499/month</div>
+                <ul class="features">
+                    <li class="font-bold">30 Days</li>
+                    <li>5day+ <sup>শর্ত প্রযোজ্য </sup></li>
+                    <li>Premium support</li>
+                </ul>
+                <br>
+                <button class="btn btn-active btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
